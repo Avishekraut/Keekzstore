@@ -4,12 +4,12 @@ Keekz is an e-commerce website built with React that allows users to browse and 
 
 # The site implements features like:
 
-• Browse shoes by category or brand
-• View shoe details including images, prices, sizes, descriptions
-• Add/remove shoes from the cart
-• Signup and log in to save the cart across sessions and access order history
-• Checkout with payment integration
-• Admin dashboard to manage inventory, orders, and site content
+• Browse shoes by category or brand<br>
+• View shoe details including images, prices, sizes, descriptions<br>
+• Add/remove shoes from the cart<br>
+• Signup and log in to save the cart across sessions and access order history<br>
+• Checkout with payment integration<br>
+• Admin dashboard to manage inventory, orders, and site content<br>
 
 # Technologies Used 💻
 
