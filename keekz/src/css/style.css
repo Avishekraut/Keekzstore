@@ -56,6 +56,36 @@ header {
   width: 24px;
   height: 24px;
 }
+/* Hero Section CSS */
+.card-container {
+  display: flex; 
+  justify-content: center;
+  gap: 17px;
+}
+
+.left-column img{
+  width: 971px;
+  height: 638px;
+  cursor: pointer;
+}
+
+.card1 img{
+  width: 400px;
+  height: 320px;
+  margin-bottom: 14px;
+  cursor: pointer;
+}
+.card2 img{
+  width: 400px;
+  height: 300px;
+  cursor: pointer;
+}
+
+
+
+
+
+
 
 @media screen and (max-width: 600px) {
   .nav-names,
