@@ -1,5 +1,6 @@
 import React from 'react'
 import '../css/style.css'
+import logo from '../images/logo.png'
 import searchIcon from '../images/svgs/Search.svg'
 import userIcon from '../images/svgs/User.svg'
 import cart from '../images/svgs/cart.svg'
@@ -13,7 +14,7 @@ const Header = () => {
             <h1>Women</h1>
         </div>
         <div className="logo">
-            {/* <img src={logo} alt="" /> */}
+            <img src={logo} alt="" />
         </div>
         <div className="nav-icons">
             <img src={searchIcon} alt="" className='search-icon'/>
