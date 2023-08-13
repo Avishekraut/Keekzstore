@@ -36,9 +36,10 @@ header {
   gap: 40px;
 }
 
-.nav-names > h3 > img {
-  height: 12px;
-  width: 12px;
+
+.nav-names > h1:hover{
+  color: rgb(77, 73, 73);
+  cursor: pointer;
 }
 
 .logo {
