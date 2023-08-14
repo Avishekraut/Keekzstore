@@ -7,7 +7,8 @@ import cart from '../images/svgs/cart.svg'
 
 const Header = () => {
   return (
-    <header>
+    <section>
+      <header>
         <div className="nav-names">
             <h1>New Drops</h1>
             <h1>Men</h1>
@@ -21,7 +22,8 @@ const Header = () => {
             <img src={userIcon} alt="" className='user-icon'/>
             <img src={cart} alt="" className='cart-icon'/>
         </div>
-    </header>
+        </header>
+    </section>
   )
 }
 
