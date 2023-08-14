@@ -3,7 +3,7 @@ import '../css/style.css'
 import logo from '../images/logo.png'
 import searchIcon from '../images/svgs/Search.svg'
 import userIcon from '../images/svgs/User.svg'
-import cart from '../images/svgs/cart.svg'
+import bag from '../images/svgs/shopping-bag.svg'
 import menu from '../images/svgs/menu.svg'
 
 const Header = () => {
@@ -22,7 +22,7 @@ const Header = () => {
         <div className="nav-icons">
             <img src={searchIcon} alt="" className='search-icon'/>
             <img src={userIcon} alt="" className='user-icon'/>
-            <img src={cart} alt="" className='cart-icon'/>
+            <img src={bag} alt="" className='cart-icon'/>
         </div>
         </header>
     </section>
