@@ -27,6 +27,11 @@ header {
   cursor: pointer;
 }
 
+.nav-names img{
+  width: 25px;
+  height: 28px;
+}
+
 .logo {
   display: flex;
   align-items: center;
@@ -88,9 +93,27 @@ header {
 
 
 @media screen and (max-width: 600px) {
-  .nav-names,
+  .names,
   .user-icon,
   .search-icon {
+    display: none;
+  }
+
+  header{
+    padding: 16px;
+    height: 55px;
+  }
+
+  .logo img {
+    width: 70px;
+    height: 70px;
+  }
+
+}
+
+@media screen and (min-width: 601px)
+{
+  .nav-names img{
     display: none;
   }
 }
