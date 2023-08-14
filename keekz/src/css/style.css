@@ -12,6 +12,8 @@ header {
 .nav-names {
   display: flex;
   gap: 40px;
+  width: 301px;
+  justify-content: flex-start;
 }
 
 .nav-names > h1 {
@@ -40,6 +42,8 @@ header {
   display: flex;
   align-items: center;
   gap: 40px;
+  width: 301px;
+  justify-content: flex-end;
 }
 
 .search-icon {
@@ -61,10 +65,12 @@ header {
   display: flex; 
   justify-content: center;
   gap: 17px;
+  max-width: 100%;
+  margin: 30px 60px 24px;
 }
 
 .left-column img{
-  width: 971px;
+  width: 951px;
   height: 638px;
   cursor: pointer;
 }
@@ -80,11 +86,6 @@ header {
   height: 300px;
   cursor: pointer;
 }
-
-
-
-
-
 
 
 @media screen and (max-width: 600px) {
