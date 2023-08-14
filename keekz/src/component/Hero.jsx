@@ -1,23 +1,20 @@
-import img1 from "../images/YEEZY_MANIA.jpg";
+import img1 from "../images/img1.png";
 import img2 from "../images/img2.jpg";
 import img3 from "../images/img3.png";
 
 const Hero = () => {
   return (
     <section>
-    <div className="card-container">
-      <div className="left-column">
-        <img src={img1}></img>
-      </div>
-      <div className="right-column">
-        <div className="card1">
-          <img src={img2}></img>
+      <div className="hero-container">
+        <div className="left-container">
+          <img src={img1} alt="" />
         </div>
-        <div className="card2">
-          <img src={img3}></img>
+        <div className="right-container">
+          <img src={img2} alt="" />
+
+          <img src={img3} alt="" />
         </div>
       </div>
-    </div>
     </section>
   );
 };
