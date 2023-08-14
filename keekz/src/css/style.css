@@ -100,6 +100,10 @@ header {
     display: none;
   }
 
+  section{
+    margin: 15px 8px 15px;
+  }
+
   header {
     padding: 16px;
     height: 55px;
