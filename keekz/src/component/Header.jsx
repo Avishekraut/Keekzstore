@@ -4,15 +4,17 @@ import logo from '../images/logo.png'
 import searchIcon from '../images/svgs/Search.svg'
 import userIcon from '../images/svgs/User.svg'
 import cart from '../images/svgs/cart.svg'
+import menu from '../images/svgs/menu.svg'
 
 const Header = () => {
   return (
     <section>
       <header>
         <div className="nav-names">
-            <h1>New Drops</h1>
-            <h1>Men</h1>
-            <h1>Women</h1>
+            <h1 className='names'>New Drops</h1>
+            <h1 className='names'>Men</h1>
+            <h1 className='names'>Women</h1>
+            <img src={menu} alt="" />
         </div>
         <div className="logo">
             <img src={logo} alt="" />

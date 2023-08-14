@@ -7,14 +7,14 @@ const Hero = () => {
     <section>
     <div className="card-container">
       <div className="left-column">
-        <img src={img1}></img>
+        <img src={img1} alt=""></img>
       </div>
       <div className="right-column">
         <div className="card1">
-          <img src={img2}></img>
+          <img src={img2} alt=''></img>
         </div>
         <div className="card2">
-          <img src={img3}></img>
+          <img src={img3} alt=""></img>
         </div>
       </div>
     </div>
