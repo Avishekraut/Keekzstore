@@ -22,7 +22,7 @@ const Header = () => {
         <div className="nav-icons">
             <img src={searchIcon} alt="" className='search-icon'/>
             <img src={userIcon} alt="" className='user-icon'/>
-            <img src={bag} alt="" className='cart-icon'/>
+            <img src={bag} alt="" className='bag-icon'/>
         </div>
         </header>
     </section>
