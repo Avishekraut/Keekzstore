@@ -4,6 +4,7 @@ import img3 from "../images/img3.png";
 
 const Hero = () => {
   return (
+    <section>
     <div className="card-container">
       <div className="left-column">
         <img src={img1}></img>
@@ -17,6 +18,7 @@ const Hero = () => {
         </div>
       </div>
     </div>
+    </section>
   );
 };
 

@@ -3,7 +3,6 @@ header {
   background: #fafafa;
   padding: 32px;
   border-radius: 24px;
-  margin: 30px 60px 24px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -65,12 +64,12 @@ header {
   display: flex; 
   justify-content: center;
   gap: 17px;
+  background: red;
   max-width: 100%;
-  margin: 30px 60px 24px;
 }
 
 .left-column img{
-  width: 951px;
+  width: 856px;
   height: 638px;
   cursor: pointer;
 }
