@@ -92,6 +92,18 @@ header {
   cursor: pointer;
 }
 
+.title{
+  width: 589px;
+}
+
+.title h1{
+  font-size: 70px;
+  font-weight: 600;
+  line-height: 95%;
+  text-transform: uppercase;
+  color: var(--color-darkGray);
+}
+
 
 @media screen and (max-width: 600px) {
   .names,
