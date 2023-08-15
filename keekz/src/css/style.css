@@ -83,7 +83,7 @@ header {
   color: var(--color-darkGray);
 }
 
-.new-drops-button button{
+.new-drops-button button {
   display: flex;
   height: 48px;
   padding: 8px 32px;
@@ -99,7 +99,51 @@ header {
   text-transform: uppercase;
 }
 
+.container-category-box {
+  height: 700px;
+  background: var(--color-darkGray);
+  margin: 128px 0 128px 0;
+  overflow: hidden;
+}
 
+
+.title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 90px 60px 90px 60px;
+}
+
+
+.title-con h2 {
+  color: var(--color-white);
+  font-size: 74px;
+  font-weight: 600;
+  line-height: 95%;
+  text-transform: uppercase;
+}
+
+.arrow-buttons {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.arrow-buttons button {
+  display: flex;
+  height: 40px;
+  padding: 8px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  border-radius: 8px;
+  background: #e7e7e3;
+}
+
+button img {
+  width: 16px;
+  height: 16px;
+}
 
 @media screen and (max-width: 600px) {
   .names,
