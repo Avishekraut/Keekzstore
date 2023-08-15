@@ -7,7 +7,7 @@ const App = () => {
   return (
     <>
       <Header />
-      {/* <Hero/> */}
+      <Hero />
       <Title />
     </>
   );
