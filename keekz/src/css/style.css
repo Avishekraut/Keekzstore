@@ -67,42 +67,65 @@ header {
 
 /* Hero Section CSS */
 .card-container {
-  display: flex; 
+  display: flex;
   justify-content: center;
   gap: 17px;
   background: red;
   max-width: 100%;
 }
 
-.left-column img{
+.left-column img {
   width: 856px;
   height: 638px;
   cursor: pointer;
 }
 
-.card1 img{
+.card1 img {
   width: 400px;
   height: 320px;
   margin-bottom: 14px;
   cursor: pointer;
 }
-.card2 img{
+.card2 img {
   width: 400px;
   height: 300px;
   cursor: pointer;
 }
 
-.title{
+.title-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.title {
   width: 589px;
 }
 
-.title h1{
+.title h1 {
   font-size: 70px;
   font-weight: 600;
   line-height: 95%;
   text-transform: uppercase;
   color: var(--color-darkGray);
 }
+
+.new-drops-button button{
+  display: flex;
+  height: 48px;
+  padding: 8px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  border-radius: 8px;
+  background: var(--color-blue);
+  color: var(--color-white);
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.25px;
+  text-transform: uppercase;
+}
+
 
 
 @media screen and (max-width: 600px) {
@@ -112,7 +135,7 @@ header {
     display: none;
   }
 
-  section{
+  section {
     margin: 15px 8px 15px;
   }
 
