@@ -161,8 +161,8 @@ button img {
 
 .first-card-text, .second-card-text, .third-card-text{
   position: absolute;
-  left: 40px;
-  bottom: 15px;
+  /* left: 20px; */
+  bottom: 10px;
 }
 
 .first-card-text h2, .second-card-text h2, .third-card-text h2{
@@ -233,18 +233,19 @@ button img {
   }
 
   .categories-box{
-    margin-left: 35px;
+    margin-left: 55px;
     border-radius: 34px 0px 0px 0px;
     grid-template-columns: 1fr;
     background: #f6f6f6;
   }
 
   .first-card-image, .second-card-image, .third-card-image{
-    margin-left: 30px;
+    margin-left: 50px;
   }
 
   .first-card-text, .second-card-text, .third-card-text{
-    bottom: 10px;
+    bottom: 20px;
+    left: 60px;
   }
 
   .first-card-text h2, .second-card-text h2, .third-card-text h2{
