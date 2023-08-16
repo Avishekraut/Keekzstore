@@ -100,7 +100,7 @@ header {
 }
 
 .container-category-box {
-  height: 550px;
+  height: 500px;
   background: var(--color-darkGray);
   margin: 50px 0 50px 0;
   overflow: hidden;
@@ -110,7 +110,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  margin: 40px 60px 40px 60px;
+  margin: 55px 60px 55px 60px;
 }
 
 .title-con h2 {
