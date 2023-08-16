@@ -100,9 +100,9 @@ header {
 }
 
 .container-category-box {
-  height: 824px;
+  height: 550px;
   background: var(--color-darkGray);
-  margin: 128px 0 128px 0;
+  margin: 50px 0 50px 0;
   overflow: hidden;
 }
 
@@ -110,12 +110,12 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  margin: 90px 60px 90px 60px;
+  margin: 40px 60px 40px 60px;
 }
 
 .title-con h2 {
   color: var(--color-white);
-  font-size: 74px;
+  font-size: 64px;
   font-weight: 600;
   line-height: 95%;
   text-transform: uppercase;
@@ -143,7 +143,7 @@ button img {
   height: 16px;
 }
 
-.first-card-component {
+.category-card-component {
   display: flex;
   padding: 0px 64px;
   justify-content: center;
@@ -153,62 +153,27 @@ button img {
   flex: 1 0 0;
   border-radius: 64px 0px 0px 0px;
   background: #eceef0;
-  height: 600px;
 }
 
-.first-card-image{
-  width: 480px;
-  height: 600px;
-  background: url('../images/category-card-img1.png');
+.first-card-image, .second-card-image, .third-card-image{
   position: relative;
+  height: 600px;
 }
 
-.first-card-image h2{
+.first-card-text, .second-card-text, .third-card-text{
   position: absolute;
   left: 48px;
   bottom: 30px;
+  width: 70px;
+}
+
+.first-card-text h2, .second-card-text h2, .third-card-text h2{
   color: var(--color-darkGray);
   font-size: 36px;
   font-weight: 600;
   text-transform: uppercase;
 }
 
-.secong-card-component {
-  display: flex;
-  padding: 0px 64px;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  flex: 1 0 0;
-  background: #F6F6F6;
-}
-
-.second-card-image{
-  width: 480px;
-  height: 600px;
-  background: url('../images/category-card-img2.png');
-  position: relative;
-}
-
-.second-card-image h2{
-  position: absolute;
-  left: 48px;
-  bottom: 30px;
-  color: var(--color-darkGray);
-  font-size: 36px;
-  font-weight: 600;
-  text-transform: uppercase;
-}
-
-/* .card-text{
-  font-size: 36px;
-  font-weight: 600;
-  text-transform: uppercase;
-}
-
-.card-text h2{
-  color: var(--color-darkGray);
-} */
 
 @media screen and (max-width: 600px) {
   .names,
@@ -244,6 +209,13 @@ button img {
     font-weight: 600;
     color: var(--color-darkGray);
     text-transform: none;
+  }
+
+  .new-drops-button button {
+    height: 40px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 14px;
   }
 }
 
