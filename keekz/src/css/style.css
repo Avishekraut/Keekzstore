@@ -91,13 +91,6 @@ header {
   text-transform: uppercase;
 }
 
-.title-box{
-  margin: 30px 60px 30px;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-}
-
 .title h1 {
   font-size: 70px;
   font-weight: 600;
@@ -143,6 +136,13 @@ button img {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
+}
+
+.title-box{
+  margin: 30px 60px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
 }
 
 .title-con h2 {
@@ -199,14 +199,13 @@ button img {
   }
 
   .title {
-    width: 172px;
+    width: 200px;
   }
 
   .title h1 {
     font-size: 24px;
     font-weight: 600;
     color: var(--color-darkGray);
-    text-transform: none;
   }
 
   .new-drops-button button {
@@ -216,6 +215,41 @@ button img {
     font-size: 14px;
   }
 
+  .title-box{
+    margin: 30px 8px 30px;
+  }
+
+  .title-con h2{
+    font-size: 40px;
+  }
+
+  .arrow-buttons button {
+    height: 30px;
+  }
+
+  button img {
+    width: 12px;
+    height: 12px;
+  }
+
+  .categories-box{
+    margin-left: 35px;
+    border-radius: 34px 0px 0px 0px;
+    grid-template-columns: 1fr;
+    background: #f6f6f6;
+  }
+
+  .first-card-image, .second-card-image, .third-card-image{
+    margin-left: 30px;
+  }
+
+  .first-card-text, .second-card-text, .third-card-text{
+    bottom: 10px;
+  }
+
+  .first-card-text h2, .second-card-text h2, .third-card-text h2{
+    font-size: 28px;
+  }
 
 }
 
