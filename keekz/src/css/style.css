@@ -149,27 +149,26 @@ button img {
   justify-content: center;
   align-items: center;
   margin-left: 60px;
-  gap: 10px;
+  gap: 28px;
   flex: 1 0 0;
   border-radius: 64px 0px 0px 0px;
-  background: #eceef0;
+  background: var(--color-white);
 }
 
 .first-card-image, .second-card-image, .third-card-image{
   position: relative;
-  height: 600px;
+  width: 600px;
 }
 
 .first-card-text, .second-card-text, .third-card-text{
   position: absolute;
   left: 48px;
-  bottom: 30px;
-  width: 70px;
+  bottom: 20px;
 }
 
 .first-card-text h2, .second-card-text h2, .third-card-text h2{
   color: var(--color-darkGray);
-  font-size: 36px;
+  font-size: 26px;
   font-weight: 600;
   text-transform: uppercase;
 }
