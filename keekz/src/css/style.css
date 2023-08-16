@@ -75,14 +75,6 @@ header {
   width: 589px;
 }
 
-.title h1 {
-  font-size: 70px;
-  font-weight: 600;
-  line-height: 95%;
-  text-transform: uppercase;
-  color: var(--color-darkGray);
-}
-
 .new-drops-button button {
   display: flex;
   height: 48px;
@@ -99,27 +91,21 @@ header {
   text-transform: uppercase;
 }
 
-.container-category-box {
-  height: 500px;
-  background: var(--color-darkGray);
-  margin: 50px 0 50px 0;
-  overflow: hidden;
-}
-
-.title-container {
+.title-box{
+  margin: 30px 60px 30px;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  margin: 55px 60px 55px 60px;
 }
 
-.title-con h2 {
-  color: var(--color-white);
-  font-size: 64px;
+.title h1 {
+  font-size: 70px;
   font-weight: 600;
   line-height: 95%;
   text-transform: uppercase;
+  color: var(--color-darkGray);
 }
+
 
 .arrow-buttons {
   display: flex;
@@ -143,27 +129,40 @@ button img {
   height: 16px;
 }
 
-.category-card-component {
+.categories-container{
+  background: var(--color-darkGray);
   display: flex;
-  padding: 0px 64px;
-  justify-content: center;
-  align-items: center;
-  margin-left: 60px;
-  gap: 28px;
-  flex: 1 0 0;
-  border-radius: 64px 0px 0px 0px;
-  background: var(--color-white);
+  flex-direction: column;
 }
+
+
+.categories-box{
+  background-color: #f6f6f6;
+  margin-left: 70px;
+  border-radius: 64px 0px 0px 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.title-con h2 {
+  color: var(--color-white);
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 95%;
+  text-transform: uppercase;
+}
+
 
 .first-card-image, .second-card-image, .third-card-image{
   position: relative;
-  width: 600px;
+  margin-left: 60px;
 }
 
 .first-card-text, .second-card-text, .third-card-text{
   position: absolute;
-  left: 48px;
-  bottom: 20px;
+  left: 40px;
+  bottom: 15px;
 }
 
 .first-card-text h2, .second-card-text h2, .third-card-text h2{
@@ -216,6 +215,8 @@ button img {
     border-radius: 8px;
     font-size: 14px;
   }
+
+
 }
 
 @media screen and (min-width: 601px) {
