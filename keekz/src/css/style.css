@@ -218,7 +218,7 @@ button img {
   }
 
   section {
-    margin: 15px 8px 15px;
+    margin: 20px 8px 20px;
   }
 
   header {
@@ -229,6 +229,21 @@ button img {
   .logo img {
     width: 70px;
     height: 70px;
+  }
+
+  .title-button {
+    align-items: center;
+  }
+
+  .title {
+    width: 172px;
+  }
+
+  .title h1 {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--color-darkGray);
+    text-transform: none;
   }
 }
 
