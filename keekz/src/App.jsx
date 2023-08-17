@@ -3,7 +3,7 @@ import Header from "./component/Header";
 import Hero from "./component/Hero";
 import Title from "./component/Title";
 import Categories from "./component/Categories";
-import ProductList from "./component/ProductList";
+import CategoryDisplay from "./component/CategoryDisplay";
 
 const App = () => {
   return (
@@ -11,8 +11,8 @@ const App = () => {
       <Header />
       <Hero />
       <Title />
-      <ProductList />
-      {/* <Categories/> */}
+      <CategoryDisplay />
+      <Categories/>
     </>
   );
 };

@@ -1,16 +1,13 @@
 import React from 'react';
 import AddToCartBtn from './AddToCartBtn';
-import img from '../images/electroorange.jpg'
 
-function ProductList() {
+function ProductList(props) {
   return (
-    <section>
     <div className='product-details'>
-       <img src={img} alt=''></img>
-       <h2 className='product-details-title'>JORDAN 1 HIGH ELECTRO ORANGE</h2>
+       <img src={require(`../images/${props.value.image}`)} alt=''></img>
+       <h2 className='product-details-title'>{props.value.name}</h2>
        <AddToCartBtn />
     </div>
-    </section>
   );
 }
 
