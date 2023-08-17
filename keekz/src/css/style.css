@@ -178,15 +178,15 @@ button img {
 /* Product listing Styles */
 .ProductList-conatiner{
   display: flex;
-  justify-content: space-between;
+  justify-content:space-between;
 }
 .product-details{
-  width: 330px;
   margin-bottom: 20px;
 }
 
 .product-details img {
   border-radius: 28px;
+  width: 330px;
 }
 .product-details-title {
   color: var(--color-darkGray);
@@ -290,6 +290,13 @@ button img {
   .second-card-text h2,
   .third-card-text h2 {
     font-size: 28px;
+  }
+  .ProductList-conatiner{
+    display: flex;
+    flex-direction: column;
+  }
+  .product-details img {
+    width: 100%;
   }
 }
 
