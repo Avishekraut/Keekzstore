@@ -99,7 +99,6 @@ header {
   color: var(--color-darkGray);
 }
 
-
 .arrow-buttons {
   display: flex;
   align-items: center;
@@ -122,14 +121,13 @@ button img {
   height: 16px;
 }
 
-.categories-container{
+.categories-container {
   background: var(--color-darkGray);
   display: flex;
   flex-direction: column;
 }
 
-
-.categories-box{
+.categories-box {
   background-color: #f6f6f6;
   margin-left: 70px;
   border-radius: 64px 0px 0px 0px;
@@ -138,7 +136,7 @@ button img {
   gap: 20px;
 }
 
-.title-box{
+.title-box {
   margin: 30px 60px 30px;
   display: flex;
   justify-content: space-between;
@@ -153,26 +151,58 @@ button img {
   text-transform: uppercase;
 }
 
-
-.first-card-image, .second-card-image, .third-card-image{
+.first-card-image,
+.second-card-image,
+.third-card-image {
   position: relative;
   margin-left: 60px;
 }
 
-.first-card-text, .second-card-text, .third-card-text{
+.first-card-text,
+.second-card-text,
+.third-card-text {
   position: absolute;
   /* left: 20px; */
   bottom: 10px;
 }
 
-.first-card-text h2, .second-card-text h2, .third-card-text h2{
+.first-card-text h2,
+.second-card-text h2,
+.third-card-text h2 {
   color: var(--color-darkGray);
   font-size: 26px;
   font-weight: 600;
   text-transform: uppercase;
 }
 
-
+/* Product listing Styles */
+.product-details{
+  margin-top: 32px;
+}
+.product-details img {
+  width: 310px;
+  border-radius: 28px;
+}
+.product-details-title {
+  color: var(--color-darkGray);
+  font-size: 24px;
+  font-weight: 600;
+  width: 250px;
+  line-height: normal;
+  margin-top: 10px;
+}
+.addToCart-btn{
+  background-color:var(--color-darkGray);; 
+  color: white; 
+  padding: 6px;
+  margin-top: 10px;
+  width: 310px;
+  border-radius: 8px;
+}
+.addToCart-btn:hover{
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-1px);
+}
 @media screen and (max-width: 600px) {
   .names,
   .user-icon,
@@ -215,11 +245,11 @@ button img {
     font-size: 14px;
   }
 
-  .title-box{
+  .title-box {
     margin: 30px 8px 30px;
   }
 
-  .title-con h2{
+  .title-con h2 {
     font-size: 40px;
   }
 
@@ -232,26 +262,31 @@ button img {
     height: 12px;
   }
 
-  .categories-box{
+  .categories-box {
     margin-left: 55px;
     border-radius: 34px 0px 0px 0px;
     grid-template-columns: 1fr;
     background: #f6f6f6;
   }
 
-  .first-card-image, .second-card-image, .third-card-image{
+  .first-card-image,
+  .second-card-image,
+  .third-card-image {
     margin-left: 50px;
   }
 
-  .first-card-text, .second-card-text, .third-card-text{
+  .first-card-text,
+  .second-card-text,
+  .third-card-text {
     bottom: 20px;
     left: 60px;
   }
 
-  .first-card-text h2, .second-card-text h2, .third-card-text h2{
+  .first-card-text h2,
+  .second-card-text h2,
+  .third-card-text h2 {
     font-size: 28px;
   }
-
 }
 
 @media screen and (min-width: 601px) {
