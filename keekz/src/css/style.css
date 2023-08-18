@@ -194,10 +194,18 @@ button img {
   color: var(--color-darkGray);
   font-size: 20px;
   font-weight: 600;
-  margin: 20px 0;
+  margin: 8px 0;
   text-align: center;
   max-width: 80%;
   margin-left: 10%;
+}
+.product-details-price{
+  text-align: center;
+  margin-bottom: 8px ;
+  color: var(--color-darkGray);
+  font-weight: 600;
+  font-size: 17px;
+
 }
 .addToCart-btn{
   background-color:var(--color-darkGray); 
