@@ -296,11 +296,11 @@ button img {
     font-size: 28px;
   }
   .ProductList-conatiner{
-    display: flex;
-    flex-direction: column;
+    grid-template-columns: 1fr 1fr;
   }
-  .product-details img {
-    width: 100%;
+
+  .product-details-title {
+    font-size: 18px;
   }
 }
 
