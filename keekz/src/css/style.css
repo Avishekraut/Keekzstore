@@ -282,6 +282,7 @@ button img {
     border-radius: 34px 0px 0px 0px;
     grid-template-columns: 1fr;
     background: #f6f6f6;
+    gap: 5px;
   }
 
   .first-card-image,
@@ -294,7 +295,6 @@ button img {
   .second-card-text,
   .third-card-text {
     bottom: 20px;
-    left: 60px;
   }
 
   .first-card-text h2,
