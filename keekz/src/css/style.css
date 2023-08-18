@@ -188,14 +188,16 @@ button img {
 
 .product-details img {
   border-radius: 28px;
-  width: 330px;
 }
+
 .product-details-title {
   color: var(--color-darkGray);
   font-size: 20px;
   font-weight: 600;
   margin: 20px 0;
   text-align: center;
+  max-width: 90%;
+  margin-left: 5%;
 }
 .addToCart-btn{
   background-color:var(--color-darkGray); 
