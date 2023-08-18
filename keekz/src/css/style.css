@@ -196,8 +196,8 @@ button img {
   font-weight: 600;
   margin: 20px 0;
   text-align: center;
-  max-width: 90%;
-  margin-left: 5%;
+  max-width: 80%;
+  margin-left: 10%;
 }
 .addToCart-btn{
   background-color:var(--color-darkGray); 
