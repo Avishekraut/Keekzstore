@@ -158,7 +158,7 @@ button img {
   margin-left: 60px;
 }
 
-.seemore-button{
+.seemore-button {
   position: absolute;
   background: var(--color-darkGray);
   bottom: 16px;
@@ -169,7 +169,7 @@ button img {
   border-radius: 8px;
 }
 
-.seemore-button img{
+.seemore-button img {
   height: 32px;
   width: 32px;
 }
@@ -234,6 +234,62 @@ button img {
   transform: translateY(-1px);
 }
 
+/* Footer css */
+.footer-container {
+  margin: 30px 60px 0;
+  height: 500px;
+  background: var(--color-darkGray);
+  border-radius: 48px;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 25px 30px;
+}
+
+.aboutus,
+.categories,
+.company,
+.social-icons {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+}
+
+.footer-container h2 {
+  color: var(--color-yellow);
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.footer-container h5 {
+  width: 360px;
+  color: #e7e7e3;
+}
+
+.footer-navigation {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+  color: #e7e7e3;
+}
+
+.icons {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+}
+
+.facebook-icon, .instagram-icon, .tiktok-icon{
+  height: 24px;
+  width: 24px;
+}
 
 @media screen and (max-width: 600px) {
   .names,
@@ -315,7 +371,6 @@ button img {
     bottom: 20px;
   }
 
-
   .first-card-text h2,
   .second-card-text h2,
   .third-card-text h2 {
@@ -330,7 +385,7 @@ button img {
     font-size: 18px;
   }
 
-  .seemore-button{
+  .seemore-button {
     bottom: 28px;
     right: 20px;
   }
