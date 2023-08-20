@@ -4,6 +4,7 @@ import Hero from "./component/Hero";
 import Title from "./component/Title";
 import Categories from "./component/Categories";
 import CategoryDisplay from "./component/CategoryDisplay";
+import Footer from "./component/Footer";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Title />
       <CategoryDisplay />
       <Categories/>
+      <Footer/>
     </>
   );
 };
