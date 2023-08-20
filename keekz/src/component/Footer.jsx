@@ -1,7 +1,7 @@
 import React from "react";
-import facebookIcon from '../images/svgs/ic_baseline-facebook.svg'
-import instagramIcon from '../images/svgs/mdi_instagram.svg'
-import tiktokIcon from '../images/svgs/ic_baseline-tiktok.svg'
+import facebookIcon from '../images/svgs/ic_baseline-facebook.svg';
+import tiktokIcon from '../images/svgs/ic_baseline-tiktok.svg';
+import instagramIcon from '../images/svgs/mdi_instagram.svg';
 
 const Footer = () => {
   return <div className="footer-container">

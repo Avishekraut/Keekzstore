@@ -242,6 +242,7 @@ button img {
   display: flex;
   justify-content: space-between;
   padding: 30px 25px 30px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .aboutus,
