@@ -158,6 +158,22 @@ button img {
   margin-left: 60px;
 }
 
+.seemore-button{
+  position: absolute;
+  background: var(--color-darkGray);
+  bottom: 16px;
+  right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.seemore-button img{
+  height: 32px;
+  width: 32px;
+}
+
 .first-card-text,
 .second-card-text,
 .third-card-text {
@@ -303,22 +319,6 @@ button img {
   .third-card-text h2 {
     font-size: 28px;
   }
-
-  .seemore-button{
-    position: absolute;
-    background: var(--color-darkGray);
-    bottom: 20px;
-    right: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .seemore-button img{
-    height: 32px;
-    width: 32px;
-  }
-
 
   .ProductList-conatiner {
     grid-template-columns: 1fr 1fr;
