@@ -233,6 +233,8 @@ button img {
   box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
   transform: translateY(-1px);
 }
+
+
 @media screen and (max-width: 600px) {
   .names,
   .user-icon,
@@ -326,6 +328,11 @@ button img {
 
   .product-details-title {
     font-size: 18px;
+  }
+
+  .seemore-button{
+    bottom: 28px;
+    right: 20px;
   }
 }
 
