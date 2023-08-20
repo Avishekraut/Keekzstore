@@ -14,6 +14,8 @@ const App = () => {
       <Title />
       <CategoryDisplay />
       <Categories/>
+      <Title />
+      <CategoryDisplay />
       <Footer/>
     </>
   );

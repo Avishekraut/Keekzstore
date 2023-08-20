@@ -237,7 +237,6 @@ button img {
 /* Footer css */
 .footer-container {
   margin: 30px 60px 0;
-  height: 500px;
   background: var(--color-darkGray);
   border-radius: 48px;
   display: flex;
