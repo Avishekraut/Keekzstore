@@ -33,7 +33,7 @@ const data = [
       "sizes": ["US 6", "US 7", "US 8"]
     },
     {
-      "id": 3,
+      "id": 4,
       "name": "Jordan 1 RETRO OG HIGH MOCHA",
       "brand": "Puma",
       "price": 89.99,
