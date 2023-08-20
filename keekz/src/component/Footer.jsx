@@ -1,4 +1,7 @@
 import React from "react";
+import facebookIcon from '../images/svgs/ic_baseline-facebook.svg'
+import instagramIcon from '../images/svgs/mdi_instagram.svg'
+import tiktokIcon from '../images/svgs/ic_baseline-tiktok.svg'
 
 const Footer = () => {
   return <div className="footer-container">
@@ -8,7 +11,7 @@ const Footer = () => {
     </div>
     <div className="footer-navigation">
         <div className="categories">
-            <div className="category-title">
+            <div className="title-names">
             <h2>Categories</h2>
             </div>
             <div className="links">
@@ -18,6 +21,31 @@ const Footer = () => {
             <a href="">Classics</a>
             <a href="">Dunks</a>
             <a href="">Unisex</a>
+            </div>
+        </div>
+        <div className="company">
+            <div className="title-names">
+            <h2>Company</h2>
+            </div>
+            <div className="links">
+            <a href="">About</a>
+            <a href="">Contact</a>
+            </div>
+        </div>
+        <div className="social-icons">
+            <div className="title-names">
+            <h2>Follow us</h2>
+            </div>
+            <div className="icons">
+                <a href="" className="facebook-icon">
+                    <img src={facebookIcon} alt="" />
+                </a>
+                <a href="" className="instagram-icon">
+                <img src={instagramIcon} alt="" />
+                </a>
+                <a href="" className="tiktok-icon">
+                <img src={tiktokIcon} alt="" />
+                </a>
             </div>
         </div>
     </div>
