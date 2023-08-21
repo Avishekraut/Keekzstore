@@ -236,10 +236,12 @@ button img {
 
 /* Footer css */
 .footer-container {
-  margin: 30px 60px 0;
   background: var(--color-darkGray);
   border-radius: 48px;
+}
+.footer-info{
   display: flex;
+  margin: 30px 60px 0;
   justify-content: space-between;
   padding: 30px 25px 30px;
   font-family: 'Open Sans', sans-serif;
@@ -289,6 +291,13 @@ button img {
 .facebook-icon, .instagram-icon, .tiktok-icon{
   height: 24px;
   width: 24px;
+}
+
+.footer-logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -40px;
 }
 
 @media screen and (max-width: 600px) {
