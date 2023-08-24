@@ -238,6 +238,7 @@ button img {
 .footer-container {
   background: var(--color-darkGray);
   border-radius: 48px;
+  overflow: hidden;
 }
 .footer-info{
   display: flex;
@@ -397,6 +398,25 @@ button img {
   .seemore-button {
     bottom: 28px;
     right: 20px;
+  }
+  .footer-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .footer-info{
+    font-size: 13px;
+    margin: 0;
+    gap: 20px;
+    flex-direction: column;
+  }
+  .footer-container h2 {
+    color: var(--color-yellow);
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .footerImg{
+    width: 358px;
   }
 }
 
