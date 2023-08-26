@@ -240,12 +240,12 @@ button img {
   border-radius: 48px;
   overflow: hidden;
 }
-.footer-info{
+.footer-info {
   display: flex;
   margin: 30px 60px 0;
   justify-content: space-between;
   padding: 30px 25px 30px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .aboutus,
@@ -289,12 +289,14 @@ button img {
   gap: 14px;
 }
 
-.facebook-icon, .instagram-icon, .tiktok-icon{
+.facebook-icon,
+.instagram-icon,
+.tiktok-icon {
   height: 24px;
   width: 24px;
 }
 
-.footer-logo{
+.footer-logo {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -302,16 +304,51 @@ button img {
 }
 
 /* Signup css */
-
-.register-container{
+.register-container {
   display: grid;
-  grid-template-columns: 40% 60%;
+  grid-template-columns: 50% 50%;
   background: var(--color-white);
 }
 
-.register-image img{
+.register-image img {
   height: 573px;
   width: 100%;
+}
+
+.register-content {
+  display: flex;
+  margin: 50px;
+  padding: 0px 40px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 18px;
+}
+
+.register-container h1 {
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.socials-options {
+  display: flex;
+  align-items: flex-start;
+  gap: 26px;
+}
+
+.facebook,
+.apple,
+.google {
+  display: flex;
+  padding: 12px 48px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  border: 1px solid var(--color-darkGray);
+}
+
+.socials-options img{
+  height: 28px;
+  width: 28px;
 }
 
 @media screen and (max-width: 600px) {
@@ -412,12 +449,12 @@ button img {
     bottom: 28px;
     right: 20px;
   }
-  .footer-container{
+  .footer-container {
     display: flex;
     justify-content: center;
     flex-direction: column;
   }
-  .footer-info{
+  .footer-info {
     font-size: 13px;
     margin: 0;
     gap: 20px;
@@ -428,7 +465,7 @@ button img {
     font-size: 15px;
     font-weight: 600;
   }
-  .footerImg{
+  .footerImg {
     width: 358px;
   }
 }
