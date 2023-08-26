@@ -1,4 +1,5 @@
 import SignOptions from '../component/SignOptions'
+import TextInputs from '../component/TextInputs'
 import image from '../images/login-signup.png'
 const Signup = () => {
   return (
@@ -12,6 +13,11 @@ const Signup = () => {
             <p>Sign up with</p>
             </div>
             <SignOptions/>
+            <p>OR</p>
+            <div className="personal-details">
+                <h1>Your Name</h1>
+                <TextInputs type="text" placeholder="Full name"/>
+            </div>
         </div>
     </div>
   )
