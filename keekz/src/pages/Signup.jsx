@@ -1,3 +1,4 @@
+import SignButton from "../component/SignButton";
 import SignOptions from "../component/SignOptions";
 import TextInputs from "../component/TextInputs";
 import image from "../images/login-signup.png";
@@ -40,6 +41,7 @@ const Signup = () => {
           <TextInputs type="email" placeholder="Email" />
           <TextInputs type="password" placeholder="Password" />
         </div>
+            <SignButton label="Register"/>
       </div>
     </div>
   );

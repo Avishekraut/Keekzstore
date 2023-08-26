@@ -352,7 +352,8 @@ button img {
 }
 
 .personal-details,
-.login-details, .gender-options {
+.login-details,
+.gender-options {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -387,6 +388,23 @@ button img {
   justify-content: center;
   align-items: center;
 }
+
+.button button{
+  display: flex;
+  height: 38px;
+  padding: 8px 16px;
+  align-items: center;
+  border-radius: 8px;
+  background: var(--color-darkGray);
+  color: var(--color-white);
+  gap: 20px;
+}
+
+button p{
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
 
 @media screen and (max-width: 600px) {
   .names,
