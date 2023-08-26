@@ -42,6 +42,10 @@ const Signup = () => {
           <TextInputs type="password" placeholder="Password" />
         </div>
             <SignButton label="Register"/>
+            <div className="navigate">
+            <p>Already have an account?</p>
+            </div>
+            
       </div>
     </div>
   );
