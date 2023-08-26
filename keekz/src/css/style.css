@@ -321,7 +321,7 @@ button img {
   padding: 0px 40px;
   flex-direction: column;
   align-items: flex-start;
-  gap: 18px;
+  gap: 15px;
 }
 
 .register-container h1 {
@@ -351,11 +351,11 @@ button img {
   width: 28px;
 }
 
-.personal-details{
+.personal-details, .login-details{
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 14px;
+  gap: 10px;
 }
 
 input{
@@ -365,6 +365,7 @@ input{
   border: 1px solid var(--color-darkGray);
   width: 428px;
 }
+
 
 @media screen and (max-width: 600px) {
   .names,

@@ -18,6 +18,11 @@ const Signup = () => {
                 <h1>Your Name</h1>
                 <TextInputs type="text" placeholder="Full name"/>
             </div>
+            <div className="login-details">
+                <h1>Login Details</h1>
+                <TextInputs type="email" placeholder="Email"/>
+                <TextInputs type="password" placeholder="Password"/>
+            </div>
         </div>
     </div>
   )
