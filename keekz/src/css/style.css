@@ -301,6 +301,19 @@ button img {
   margin-top: -40px;
 }
 
+/* Signup css */
+
+.register-container{
+  display: grid;
+  grid-template-columns: 40% 60%;
+  background: var(--color-white);
+}
+
+.register-image img{
+  height: 573px;
+  width: 100%;
+}
+
 @media screen and (max-width: 600px) {
   .names,
   .user-icon,

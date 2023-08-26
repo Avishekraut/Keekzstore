@@ -5,18 +5,20 @@ import Title from "./component/Title";
 import Categories from "./component/Categories";
 import CategoryDisplay from "./component/CategoryDisplay";
 import Footer from "./component/Footer";
+import Signup from "./pages/Signup";
 
 const App = () => {
   return (
     <>
-      <Header />
+      {/* <Header />
       <Hero />
       <Title />
       <CategoryDisplay />
       <Categories/>
       <Title />
       <CategoryDisplay />
-      <Footer/>
+      <Footer/> */}
+      <Signup/>
     </>
   );
 };
