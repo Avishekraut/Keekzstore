@@ -317,7 +317,7 @@ button img {
 
 .register-content {
   display: flex;
-  margin: 50px;
+  margin: 20px 50px 20px;
   padding: 0px 40px;
   flex-direction: column;
   align-items: flex-start;
@@ -325,7 +325,7 @@ button img {
 }
 
 .register-container h1 {
-  font-size: 23px;
+  font-size: 20px;
   font-weight: 600;
 }
 
@@ -346,19 +346,27 @@ button img {
   border: 1px solid var(--color-darkGray);
 }
 
-.socials-options img{
+.socials-options img {
   height: 28px;
   width: 28px;
 }
 
-.personal-details{
+.personal-details,
+.login-details, .gender-options {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 10px;
 }
 
-input{
+.options {
+  display: flex;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.personal-details input,
+.login-details input {
   height: 40px;
   padding: 10px 16px;
   border-radius: 8px;
@@ -366,6 +374,19 @@ input{
   width: 428px;
 }
 
+.check-optn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.checkboxes {
+  display: flex;
+  width: 24px;
+  height: 24px;
+  justify-content: center;
+  align-items: center;
+}
 
 @media screen and (max-width: 600px) {
   .names,
