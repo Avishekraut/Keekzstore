@@ -1,5 +1,6 @@
 import image from "../images/login-signup.png";
 import TextInputs from "../component/TextInputs";
+import SignButton from "../component/SignButton";
 const Login = () => {
   return (
     <div className="login-container">
@@ -15,6 +16,7 @@ const Login = () => {
           <TextInputs type="email" placeholder="Email" />
           <TextInputs type="password" placeholder="Password" />
         </div>
+        <SignButton label="Login" />
         </div>
     </div>
   )
