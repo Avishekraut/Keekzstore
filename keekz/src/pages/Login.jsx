@@ -5,10 +5,10 @@ import SignOptions from "../component/SignOptions";
 const Login = () => {
   return (
     <div className="login-container">
-        <div className="login-image">
+      <div className="login-image">
         <img src={image} alt="" />
-        </div>
-        <div className="login-content">
+      </div>
+      <div className="login-content">
         <div className="top-title">
           <h1>Login</h1>
           <p>Sign in with</p>
@@ -18,18 +18,26 @@ const Login = () => {
           <TextInputs type="password" placeholder="Password" />
         </div>
         <div className="info">
-            <div className="check-optn">
-        <TextInputs type="checkbox" className="checkboxes" />
-              <p>Keep me logged in - applies to all log in options below. <span><a href="/">More Info</a></span></p> 
-        </div>
+          <div className="check-optn">
+            <TextInputs type="checkbox" className="checkboxes" />
+            <p>
+              Keep me logged in - applies to all log in options below.{" "}
+              <span>
+                <a href="/">More Info</a>
+              </span>
+            </p>
+          </div>
         </div>
         <SignButton label="Login" />
         <p>OR</p>
-        <SignOptions/>
-        <p>By clicking 'Log In' you agree to our KicksClub Terms & Conditions, Kicks Privacy Notice and Terms & Conditions.</p>
-        </div>
+        <SignOptions />
+        <p>
+          By clicking 'Log In' you agree to our KicksClub Terms & Conditions,
+          Kicks Privacy Notice.
+        </p>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Login
+export default Login;
