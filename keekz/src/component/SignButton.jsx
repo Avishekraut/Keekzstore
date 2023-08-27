@@ -1,4 +1,4 @@
-import allButton from "../images/svgs/arrow_trend_right_up.svg";
+import allButton from "../images/svgs/arrow_forward.svg";
 
 const SignButton = (props) => {
   return (
