@@ -26,6 +26,7 @@ const Login = () => {
         <SignButton label="Login" />
         <p>OR</p>
         <SignOptions/>
+        <p>By clicking 'Log In' you agree to our KicksClub Terms & Conditions, Kicks Privacy Notice and Terms & Conditions.</p>
         </div>
     </div>
   )
