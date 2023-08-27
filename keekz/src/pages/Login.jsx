@@ -16,7 +16,14 @@ const Login = () => {
           <TextInputs type="email" placeholder="Email" />
           <TextInputs type="password" placeholder="Password" />
         </div>
+        <div className="info">
+            <div className="check-optn">
+        <TextInputs type="checkbox" className="checkboxes" />
+              <p>Keep me logged in - applies to all log in options below. <span><a href="/">More Info</a></span></p> 
+        </div>
+        </div>
         <SignButton label="Login" />
+        <p>OR</p>
         </div>
     </div>
   )

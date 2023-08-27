@@ -304,13 +304,15 @@ button img {
 }
 
 /* Signup css */
-.register-container, .login-container {
+.register-container,
+.login-container {
   display: grid;
   grid-template-columns: 50% 50%;
   background: var(--color-white);
 }
 
-.register-image img, .login-image img {
+.register-image img,
+.login-image img {
   height: 573px;
   width: 100%;
 }
@@ -324,16 +326,17 @@ button img {
   gap: 10px;
 }
 
-.login-content{
+.login-content {
   display: flex;
-  margin: 15% 50px 15%;
+  margin: 10% 50px 10%;
   padding: 0px 40px;
   flex-direction: column;
   align-items: flex-start;
   gap: 10px;
 }
 
-.register-container h1, .login-content h1 {
+.register-container h1,
+.login-content h1 {
   font-size: 20px;
   font-weight: 600;
 }
@@ -390,6 +393,11 @@ button img {
   gap: 8px;
 }
 
+.info{
+  display: flex;
+  gap: 8px;
+}
+
 .checkboxes {
   display: flex;
   width: 24px;
@@ -398,7 +406,11 @@ button img {
   align-items: center;
 }
 
-.button button{
+.login-container a{
+  text-decoration: underline;
+}
+
+.button button {
   display: flex;
   height: 38px;
   padding: 8px 16px;
@@ -410,16 +422,16 @@ button img {
   width: 428px;
 }
 
-button p{
+button p {
   font-size: 15px;
   text-transform: uppercase;
 }
 
-.navigate p{
+.navigate p {
   text-decoration: underline;
 }
 
-.navigate:hover{
+.navigate:hover {
   cursor: pointer;
 }
 
