@@ -1,6 +1,7 @@
 import image from "../images/login-signup.png";
 import TextInputs from "../component/TextInputs";
 import SignButton from "../component/SignButton";
+import SignOptions from "../component/SignOptions";
 const Login = () => {
   return (
     <div className="login-container">
@@ -24,6 +25,7 @@ const Login = () => {
         </div>
         <SignButton label="Login" />
         <p>OR</p>
+        <SignOptions/>
         </div>
     </div>
   )
