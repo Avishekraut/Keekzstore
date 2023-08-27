@@ -1,7 +1,7 @@
 import SignButton from "../component/SignButton";
 import SignOptions from "../component/SignOptions";
 import TextInputs from "../component/TextInputs";
-import image from "../images/login-signup.png";
+import image from "../images/login-signup.jpg";
 const Signup = () => {
   return (
     <div className="register-container">
