@@ -304,13 +304,13 @@ button img {
 }
 
 /* Signup css */
-.register-container {
+.register-container, .login-container {
   display: grid;
   grid-template-columns: 50% 50%;
   background: var(--color-white);
 }
 
-.register-image img {
+.register-image img, .login-image img {
   height: 573px;
   width: 100%;
 }

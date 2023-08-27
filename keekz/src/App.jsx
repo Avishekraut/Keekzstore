@@ -6,6 +6,7 @@ import Categories from "./component/Categories";
 import CategoryDisplay from "./component/CategoryDisplay";
 import Footer from "./component/Footer";
 import Signup from "./pages/Signup";
+import Login from "./pages/Login";
 
 const App = () => {
   return (
@@ -18,7 +19,8 @@ const App = () => {
       <Title />
       <CategoryDisplay />
       <Footer/> */}
-      <Signup/>
+      {/* <Signup/> */}
+      <Login/>
     </>
   );
 };
