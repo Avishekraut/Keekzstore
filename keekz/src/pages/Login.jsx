@@ -29,6 +29,9 @@ const Login = () => {
           </div>
         </div>
         <SignButton label="Login" />
+        <div className="navigate">
+          <p>Don't have an account?</p>
+        </div>
         <p>OR</p>
         <SignOptions />
         <p>
